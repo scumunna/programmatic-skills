@@ -317,9 +317,19 @@ with the platform skills that read from your own account. See [tools/README.md](
 Everything here reads and recommends; nothing changes a live campaign on its own. To give an
 agent live platform access safely, including how to connect the existing official MCP servers
 and why any spend-affecting change stays behind a human, see
-[docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md). For a concrete read-only walkthrough that
-pulls a real Google Ads report, see [docs/DEMO-GOOGLE-ADS.md](docs/DEMO-GOOGLE-ADS.md). To connect
-DV360 and get real data, see [docs/CONNECT-DV360.md](docs/CONNECT-DV360.md).
+[docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md).
+
+### Connect your real data, by platform
+
+Each platform has an honest guide for getting your real campaign data into the assistant, from
+the no-setup path (export a report and hand it over, which works everywhere with any model) to
+the API and MCP paths, with each platform's real access gating spelled out:
+
+- Google Ads: [docs/DEMO-GOOGLE-ADS.md](docs/DEMO-GOOGLE-ADS.md)
+- DV360: [docs/CONNECT-DV360.md](docs/CONNECT-DV360.md)
+- Amazon DSP: [docs/CONNECT-AMAZON-DSP.md](docs/CONNECT-AMAZON-DSP.md)
+- StackAdapt: [docs/CONNECT-STACKADAPT.md](docs/CONNECT-STACKADAPT.md)
+- The Trade Desk: [docs/CONNECT-TTD.md](docs/CONNECT-TTD.md)
 
 ## Multi-DSP roadmap
 

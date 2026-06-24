@@ -45,10 +45,21 @@ What exists today (verified, as of June 2026):
 Anthropic does not ship ad-platform connectors itself. The platforms (Google, Amazon) publish
 their own, listed in the public MCP registry.
 
-For a concrete, read-only walkthrough that connects the official Google Ads server and pulls a
-real report from your account, see [DEMO-GOOGLE-ADS.md](DEMO-GOOGLE-ADS.md). For DV360, which has
-no official MCP server yet, see [CONNECT-DV360.md](CONNECT-DV360.md): exporting a report with no
-setup, the bundled report puller, and the state of DV360 MCP servers.
+## Per-platform connection guides
+
+Every platform has a short, honest guide for getting your real data into the assistant, from the
+no-setup path (export a report and hand it over) through the API and MCP paths, each one blunt
+about that platform's real access gating:
+
+- Google Ads: [DEMO-GOOGLE-ADS.md](DEMO-GOOGLE-ADS.md). A read-only walkthrough using the official MCP server.
+- DV360: [CONNECT-DV360.md](CONNECT-DV360.md). Export, the bundled report puller, and the MCP state.
+- Amazon DSP: [CONNECT-AMAZON-DSP.md](CONNECT-AMAZON-DSP.md). The Amazon Ads API and the official beta MCP.
+- StackAdapt: [CONNECT-STACKADAPT.md](CONNECT-STACKADAPT.md). The request-only GraphQL API.
+- The Trade Desk: [CONNECT-TTD.md](CONNECT-TTD.md). Partner-gated, so export-and-feed for almost everyone.
+
+The common thread: Path 1, export a report and hand it to the assistant, works on every platform
+today, with any model, and no credentials. The API and MCP paths vary by how each platform gates
+access.
 
 ## Credentials and security
 
