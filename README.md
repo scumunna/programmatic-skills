@@ -292,6 +292,14 @@ install covers all of them. Agents are symlinked into `~/.claude/agents` and `~/
 The plugin marketplace install is the simplest way to get both skills and agents in every
 runtime.
 
+### Any model, including local and open-weight
+
+The skills are plain markdown, so the knowledge works with any model, not just hosted ones.
+Skill-aware harnesses (Claude Code, Codex) load them automatically. For a model with no skill
+harness, including a local model through Ollama or LM Studio or any OpenAI-compatible endpoint,
+`tools/skill_router.py` routes a question to the right skill and prints a prompt or calls the
+model directly. See [docs/USING-ANY-LLM.md](docs/USING-ANY-LLM.md).
+
 ## Using the skills
 
 Talk to your agent normally. Skills activate when your request matches what a skill covers,

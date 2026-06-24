@@ -13,6 +13,18 @@ trader asks every day. Each prints usage with `--help` or no arguments.
 | `frequency_delivery_check.py` | Will my frequency cap and audience actually deliver the impressions I need? | `python3 tools/frequency_delivery_check.py --audience 500000 --freq-cap 10 --budget 30000 --cpm 6` |
 | `budget_flight_planner.py` | Across this flight and CPM, what daily budget, impressions, and conversions should I expect? | `python3 tools/budget_flight_planner.py --budget 30000 --start 2026-07-01 --end 2026-07-31 --cpm 6 --ctr 0.002 --cvr 0.05` |
 
+## Use the skills with any model
+
+`skill_router.py` routes a question to the most relevant skill and uses it with any model: a
+local server (Ollama, LM Studio, vLLM) or a hosted OpenAI-compatible endpoint. Standard library
+only. See [../docs/USING-ANY-LLM.md](../docs/USING-ANY-LLM.md).
+
+```
+python3 tools/skill_router.py --list
+python3 tools/skill_router.py --match "why is my DV360 line item not spending"
+python3 tools/skill_router.py --ask "plan a CTV reach campaign" --base-url http://localhost:11434/v1 --model llama3.1
+```
+
 ## Platform helpers (bring your own credentials)
 
 Read-only report pullers bundled with the platform skills. They read from your own account
