@@ -45,8 +45,8 @@ Fifteen skills across three jobs plus one shared foundation.
 ### Claude Code (plugin marketplace)
 
 ```
-/plugin marketplace add scumunna/programmatic-trader-skills
-/plugin install programmatic-trader-skills
+/plugin marketplace add scumunna/programmatic-skills
+/plugin install programmatic-skills
 ```
 
 ### Codex
@@ -60,8 +60,8 @@ Clone the repo and run the installer. It symlinks each skill into the runtime sk
 directories so a `git pull` keeps them current.
 
 ```
-git clone https://github.com/scumunna/programmatic-trader-skills.git
-cd programmatic-trader-skills
+git clone https://github.com/scumunna/programmatic-skills.git
+cd programmatic-skills
 ./install.sh            # symlink into ~/.claude/skills, ~/.codex/skills, ~/.agents/skills
 ./install.sh --copy     # copy instead of symlink
 ```

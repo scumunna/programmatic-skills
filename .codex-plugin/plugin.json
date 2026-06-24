@@ -1,5 +1,5 @@
 {
-  "name": "programmatic-trader-skills",
+  "name": "programmatic-skills",
   "version": "0.1.0",
   "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
   "author": {
@@ -7,8 +7,8 @@
     "email": "scumunna@gmail.com",
     "url": "https://github.com/scumunna"
   },
-  "homepage": "https://github.com/scumunna/programmatic-trader-skills",
-  "repository": "https://github.com/scumunna/programmatic-trader-skills",
+  "homepage": "https://github.com/scumunna/programmatic-skills",
+  "repository": "https://github.com/scumunna/programmatic-skills",
   "license": "MIT",
   "keywords": [
     "dv360",
@@ -36,6 +36,6 @@
       "Help me structure and launch a DV360 campaign.",
       "Analyze my DV360 pacing and recommend optimizations."
     ],
-    "websiteURL": "https://github.com/scumunna/programmatic-trader-skills"
+    "websiteURL": "https://github.com/scumunna/programmatic-skills"
   }
 }
