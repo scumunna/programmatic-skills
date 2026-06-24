@@ -22,7 +22,7 @@ KPI math live in the `programmatic-foundations` skill.
 
 A growing library of agent skills organized by platform, plus shared foundations and
 reporting, and specialist agents that chain the skills into a full workflow. DV360 and
-Google Ads are covered today, with more demand-side platforms being added.
+Google Ads, and Amazon DSP are covered today, with more demand-side platforms being added.
 
 ### Shared and cross-platform
 
@@ -66,6 +66,20 @@ Google Ads are covered today, with more demand-side platforms being added.
 | `google-ads-reporting` | Analytics | The report editor, custom columns, segments, the impression-share metrics, scripts, and GAQL. |
 | `google-ads-optimization-and-troubleshooting` | Ops | Optimization score, learning and limited statuses, disapprovals, low impression share, delivery fixes. |
 | `google-ads-api-and-bulk-operations` | Automation | Google Ads API v24, GAQL, Editor, scripts, and a safe-to-automate matrix with a report puller. |
+
+### Amazon DSP
+
+| Skill | Job | What it does |
+| --- | --- | --- |
+| `amazon-dsp-account-structure` | Structure | Advertiser, order, and line item hierarchy, managed vs self-service, product types, and the Amazon Ads pixel. |
+| `amazon-dsp-campaign-setup` | Campaigns | Building orders and line items: supply, budget, pacing, flight, goal, frequency, dayparting, and targeting. |
+| `amazon-dsp-audiences` | Targeting | Amazon shopping and streaming audiences, advertiser and AMC audiences, lookalikes, and ASIN retargeting. |
+| `amazon-dsp-inventory-and-supply` | Supply | Amazon owned-and-operated (Prime Video, Fire TV, Twitch, IMDb), deals, and third-party exchanges. |
+| `amazon-dsp-bidding-and-optimization` | Bidding | Optimization goals (reach, CPA, ROAS, VCR, DPVR), bid, supply, and audience optimization, and pacing. |
+| `amazon-dsp-creative-and-formats` | Creative | Display, online video, streaming TV, audio, and responsive e-commerce creatives, and where to get specs. |
+| `amazon-dsp-measurement-and-reporting` | Analytics | The retail funnel: detail page views, purchases, ROAS, new-to-brand, reach, frequency, and attribution. |
+| `amazon-marketing-cloud` | Analytics | The AMC clean room: SQL on event-level signals, custom attribution, overlap, incrementality, and audiences. |
+| `amazon-dsp-api-and-automation` | Automation | The Amazon Ads API for DSP, reporting and audiences APIs, the AMC API, access gating, and safe-to-automate. |
 
 ## Specialist agents
 
