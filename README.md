@@ -20,7 +20,8 @@ KPI math live in the `programmatic-foundations` skill.
 
 ## What is in the box
 
-Fifteen skills across three jobs plus one shared foundation.
+A growing library of agent skills across three jobs, plus shared foundations and reporting.
+DV360 is the first platform and more demand-side platforms are being added.
 
 | Skill | Job | What it does |
 | --- | --- | --- |
@@ -35,6 +36,8 @@ Fifteen skills across three jobs plus one shared foundation.
 | `dv360-measurement-and-attribution` | Analytics | Floodlight, Campaign Manager 360, attribution models, Brand Lift, reach and frequency. |
 | `dv360-advanced-analytics-adh` | Analytics | Ads Data Hub, privacy checks, BigQuery Data Transfer, joining first-party data. |
 | `dv360-custom-bidding` | Analytics | Rule-based, script, and Ads Data Hub custom bidding. Scoring, attribution, staged rollout. |
+| `reporting-by-campaign-goal` | Analytics (cross-DSP) | State-of-the-art report recipes per objective: awareness, consideration, conversion, retention, reach planning. |
+| `path-to-conversion-analysis` | Analytics (cross-DSP) | Multi-touch paths: touchpoints to convert, time lag, top paths, assisted conversions, via CM360, GA4, Ads Data Hub. |
 | `dv360-account-setup-and-taxonomy` | Ops | Partner and advertiser setup, naming conventions, roles and permissions, governance. |
 | `dv360-launch-qa` | Ops | Pre-flight QA checklist and sign-off workflow before any campaign goes live. |
 | `dv360-troubleshooting` | Ops | Ordered playbooks for no delivery, pacing, win rate, viewability, creatives, conversions. |
