@@ -26,7 +26,7 @@ To produce a performance report, a measurement read, a path-to-conversion analys
 4. For privacy-safe, cross-device, or first-party questions, use dv360-advanced-analytics-adh.
 5. Read metrics against the funnel stage, never in isolation. Separate signal from noise and state confidence.
 
-This package covers DV360 and the Google measurement stack today. Apply the matching platform skills for other platforms as they are added.
+This package covers DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. Apply the matching platform reporting skills (dv360-reporting, google-ads-reporting, amazon-dsp-measurement-and-reporting, stackadapt-reporting-and-attribution). To prove lift use incrementality-and-experimentation, and for cross-platform reach use reach-and-frequency-planning.
 
 ## Output
 

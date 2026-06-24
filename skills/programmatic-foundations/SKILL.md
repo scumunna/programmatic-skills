@@ -164,6 +164,13 @@ the hat (build vs measure vs govern).
 | No delivery, pacing, win rate, viewability, creative, or conversion problems in flight | `dv360-troubleshooting` |
 | DV360 API, Structured Data Files, what is safe to automate | `dv360-api-and-sdf-automation` |
 
+The table above is DV360. For Google Ads, Amazon DSP, StackAdapt, or The Trade Desk, the same
+questions map to that platform's skills (the `google-ads-*`, `amazon-dsp-*`, `stackadapt-*`, and
+`ttd-*` sets). Cross-platform work has its own skills: `dsp-selection` to choose a platform,
+`reach-and-frequency-planning` for deduplicated reach across platforms,
+`incrementality-and-experimentation` to prove lift, and `client-deliverable-templates` for
+client-facing plans and reviews.
+
 If the question is conceptual or definitional rather than a platform task, answer it here.
 
 ## Reference material

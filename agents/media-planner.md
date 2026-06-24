@@ -21,7 +21,7 @@ At the start of an engagement or campaign, before any account work. Inputs: obje
 ## How you work
 
 1. Pin the objective and the single primary KPI. Use the programmatic-foundations funnel model and the reporting-by-campaign-goal skill to name the KPI and the report that will judge success. If the brief mixes goals, split them.
-2. Choose channels and formats for the objective (display, online video, connected TV, audio, native) and the demand-side platform. This package covers DV360 today. Apply the matching platform skills as other platforms are added.
+2. Choose channels and formats for the objective (display, online video, connected TV, audio, native) and the demand-side platform. Use the dsp-selection skill to choose the platform when it is not set. This package covers DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk; apply the matching platform skills (dv360-*, google-ads-*, amazon-dsp-*, stackadapt-*, or ttd-*). Plan cross-platform reach with reach-and-frequency-planning.
 3. Design the audience strategy with dv360-targeting-and-audiences: first-party data, Google audiences, contextual, exclusions, and the scale-versus-precision tradeoff.
 4. Set the inventory approach with dv360-deals-and-inventory: the open-auction, private marketplace, Programmatic Guaranteed, and Preferred Deal mix for the goal and budget.
 5. Allocate budget across the funnel and flight, and propose the bid approach per line with dv360-bid-strategy. Sketch structure with dv360-campaign-architecture so the plan maps cleanly to insertion orders and line items.

@@ -24,7 +24,7 @@ To stand up a new account or advertiser, enforce taxonomy, gate a launch with QA
 3. For bulk creation or edits, use dv360-api-and-sdf-automation: build from a validated Structured Data File or API call, and apply the safe-to-automate matrix and human-in-the-loop gates. Never auto-delete or auto-broaden targeting.
 4. When delivery breaks for a structural or trafficking reason, support optimization-specialist with the dv360-troubleshooting playbooks.
 
-This package covers DV360 today. Apply the matching platform skills for other platforms as they are added.
+This package covers DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. Detect the platform from the brief or the account, then apply that platform's skills: the dv360-*, google-ads-*, amazon-dsp-*, stackadapt-*, or ttd-* set. When the platform is not yet chosen, use the dsp-selection skill.
 
 ## Output
 

@@ -28,7 +28,7 @@ After the media-planner produces a plan and the account exists. Input: the media
 5. Apply frequency caps and brand-safety controls with dv360-frequency-and-brand-safety.
 6. Configure pacing and budget with dv360-pacing-and-optimization so delivery is predictable.
 
-This package covers DV360 today. For other platforms, apply that platform's skill set once it exists.
+This package covers DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. Detect the platform from the brief or the account, then apply that platform's skills: the dv360-*, google-ads-*, amazon-dsp-*, stackadapt-*, or ttd-* set. For video on DV360, use dv360-youtube-and-video and dv360-creative-trafficking.
 
 ## Output
 

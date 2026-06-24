@@ -31,6 +31,10 @@ Google Ads, Amazon DSP, StackAdapt, and The Trade Desk are covered today.
 | `programmatic-foundations` | Glossary, auction and KPI math, funnel model, and the trader, analyst, and ops mental model every platform skill builds on. |
 | `reporting-by-campaign-goal` | State-of-the-art report recipes per objective: awareness, consideration, conversion, retention, and reach planning. |
 | `path-to-conversion-analysis` | Multi-touch paths: touchpoints to convert, time lag, top paths, and assisted conversions, via CM360, GA4, and Ads Data Hub. |
+| `dsp-selection` | Which demand-side platform to use for which goal, and the tradeoffs that decide it. |
+| `reach-and-frequency-planning` | Deduplicated reach across platforms, effective frequency, the reach curve, and the identity limits. |
+| `incrementality-and-experimentation` | Lift testing done right: conversion lift, geo lift, holdouts, power and sample size, reading a result. |
+| `client-deliverable-templates` | Fill-in media plan, QBR deck, proposal, plain-English glossary, and bad-news framing for clients. |
 
 ### Display & Video 360 (DV360)
 
@@ -42,6 +46,8 @@ Google Ads, Amazon DSP, StackAdapt, and The Trade Desk are covered today.
 | `dv360-deals-and-inventory` | Trading | Open auction, PMP, Programmatic Guaranteed, Preferred Deals. Activation and non-delivery fixes. |
 | `dv360-frequency-and-brand-safety` | Trading | Frequency caps, content and publisher exclusions, DoubleVerify and IAS, viewability standards. |
 | `dv360-pacing-and-optimization` | Trading | Pacing modes, pacing math, under and over-delivery fix trees, impression loss diagnosis. |
+| `dv360-youtube-and-video` | Trading | YouTube and video line items: skippable, non-skippable, bumper, in-feed, Shorts, CPV, and video reach campaigns. |
+| `dv360-creative-trafficking` | Ops | Third-party tags, VAST, click macros, secure tags, and a creative QA checklist for what blocks a creative from serving. |
 | `dv360-reporting` | Analytics | Offline vs instant reporting, report types, the metric and dimension glossary, scheduling. |
 | `dv360-measurement-and-attribution` | Analytics | Floodlight, Campaign Manager 360, attribution models, Brand Lift, reach and frequency. |
 | `dv360-advanced-analytics-adh` | Analytics | Ads Data Hub, privacy checks, BigQuery Data Transfer, joining first-party data. |
