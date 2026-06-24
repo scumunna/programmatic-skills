@@ -45,6 +45,9 @@ What exists today (verified, as of June 2026):
 Anthropic does not ship ad-platform connectors itself. The platforms (Google, Amazon) publish
 their own, listed in the public MCP registry.
 
+For a concrete, read-only walkthrough that connects the official Google Ads server and pulls a
+real report from your account, see [DEMO-GOOGLE-ADS.md](DEMO-GOOGLE-ADS.md).
+
 ## Credentials and security
 
 - Never put credentials in this repository, in a skill, or in a prompt. Read them from environment variables or the MCP server's own configuration.

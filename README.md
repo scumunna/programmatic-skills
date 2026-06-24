@@ -302,7 +302,8 @@ with the platform skills that read from your own account. See [tools/README.md](
 Everything here reads and recommends; nothing changes a live campaign on its own. To give an
 agent live platform access safely, including how to connect the existing official MCP servers
 and why any spend-affecting change stays behind a human, see
-[docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md).
+[docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md). For a concrete read-only walkthrough that
+pulls a real Google Ads report, see [docs/DEMO-GOOGLE-ADS.md](docs/DEMO-GOOGLE-ADS.md).
 
 ## Multi-DSP roadmap
 
