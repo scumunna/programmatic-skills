@@ -143,6 +143,14 @@ spending on its own, and any change is gated on human approval. See
 [loops/README.md](loops/README.md) for the catalog and how to run a loop on demand or on a
 schedule.
 
+## Workflows
+
+[WORKFLOWS.md](WORKFLOWS.md) shows how the three layers compose into end-to-end workflows that
+run the same way on every platform: launch a campaign, run it in flight, and report to the
+client, with the QA scrutinizer gating each handoff. To move to a different demand-side
+platform, the agents and loops stay the same and only the platform skill set changes. That is
+what makes this a multi-platform operating system rather than five separate playbooks.
+
 ## Install
 
 ### Claude Code (plugin marketplace)
