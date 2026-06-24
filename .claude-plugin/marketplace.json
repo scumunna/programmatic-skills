@@ -1,0 +1,20 @@
+{
+  "name": "programmatic-trader-skills",
+  "description": "Marketplace for the programmatic trader skills library: DV360 trading, analytics, and account operations.",
+  "owner": {
+    "name": "Stephen Umunna",
+    "email": "scumunna@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "programmatic-trader-skills",
+      "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Stephen Umunna",
+        "email": "scumunna@gmail.com"
+      }
+    }
+  ]
+}

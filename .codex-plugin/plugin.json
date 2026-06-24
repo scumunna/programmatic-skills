@@ -1,0 +1,41 @@
+{
+  "name": "programmatic-trader-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
+  "author": {
+    "name": "Stephen Umunna",
+    "email": "scumunna@gmail.com",
+    "url": "https://github.com/scumunna"
+  },
+  "homepage": "https://github.com/scumunna/programmatic-trader-skills",
+  "repository": "https://github.com/scumunna/programmatic-trader-skills",
+  "license": "MIT",
+  "keywords": [
+    "dv360",
+    "display-and-video-360",
+    "programmatic",
+    "ad-trading",
+    "ad-operations",
+    "adtech",
+    "analytics",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Programmatic Trader Skills",
+    "shortDescription": "DV360 trading, analytics, and account-ops workflows for coding agents",
+    "longDescription": "A library of agent skills that let an assistant plan and build DV360 campaigns, choose bid strategies, manage pacing and budgets, set up deals and brand safety, pull and interpret reports, run measurement and attribution, QA accounts, and troubleshoot delivery. DSP-agnostic foundations make it extensible to other demand-side platforms.",
+    "developerName": "Stephen Umunna",
+    "category": "Marketing",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me structure and launch a DV360 campaign.",
+      "Analyze my DV360 pacing and recommend optimizations."
+    ],
+    "websiteURL": "https://github.com/scumunna/programmatic-trader-skills"
+  }
+}

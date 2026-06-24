@@ -1,0 +1,22 @@
+{
+  "name": "programmatic-trader-skills",
+  "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stephen Umunna",
+    "email": "scumunna@gmail.com"
+  },
+  "homepage": "https://github.com/scumunna/programmatic-trader-skills",
+  "repository": "https://github.com/scumunna/programmatic-trader-skills",
+  "license": "MIT",
+  "keywords": [
+    "dv360",
+    "display-and-video-360",
+    "programmatic",
+    "ad-trading",
+    "ad-operations",
+    "adtech",
+    "analytics",
+    "skills"
+  ]
+}
