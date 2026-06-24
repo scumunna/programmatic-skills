@@ -1,7 +1,7 @@
 {
   "name": "programmatic-skills",
-  "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
-  "version": "0.1.0",
+  "description": "72 skills, 7 specialist agents, and 14 workflow loops for operating as a programmatic trader, analyst, and account-operations specialist across DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. Reads and recommends, with human-gated changes.",
+  "version": "1.0.0",
   "author": {
     "name": "Stephen Umunna",
     "email": "scumunna@gmail.com"
@@ -10,13 +10,15 @@
   "repository": "https://github.com/scumunna/programmatic-skills",
   "license": "MIT",
   "keywords": [
-    "dv360",
-    "display-and-video-360",
     "programmatic",
+    "adtech",
+    "dv360",
+    "google-ads",
+    "amazon-dsp",
+    "the-trade-desk",
+    "stackadapt",
     "ad-trading",
     "ad-operations",
-    "adtech",
-    "analytics",
-    "skills"
+    "agent-skills"
   ]
 }

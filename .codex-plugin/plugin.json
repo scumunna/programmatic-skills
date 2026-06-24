@@ -1,7 +1,7 @@
 {
   "name": "programmatic-skills",
-  "version": "0.1.0",
-  "description": "Agent skills for operating as a programmatic trader, analyst, and account-operations specialist. DV360 first, multi-DSP by design.",
+  "version": "1.0.0",
+  "description": "72 skills, 7 specialist agents, and 14 workflow loops for operating as a programmatic trader, analyst, and account-operations specialist across DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. Reads and recommends, with human-gated changes.",
   "author": {
     "name": "Stephen Umunna",
     "email": "scumunna@gmail.com",
@@ -11,21 +11,23 @@
   "repository": "https://github.com/scumunna/programmatic-skills",
   "license": "MIT",
   "keywords": [
-    "dv360",
-    "display-and-video-360",
     "programmatic",
+    "adtech",
+    "dv360",
+    "google-ads",
+    "amazon-dsp",
+    "the-trade-desk",
+    "stackadapt",
     "ad-trading",
     "ad-operations",
-    "adtech",
-    "analytics",
-    "skills"
+    "agent-skills"
   ],
   "skills": "./skills/",
   "agents": "./agents/",
   "interface": {
     "displayName": "Programmatic Trader Skills",
-    "shortDescription": "DV360 trading, analytics, and account-ops workflows for coding agents",
-    "longDescription": "A library of agent skills that let an assistant plan and build DV360 campaigns, choose bid strategies, manage pacing and budgets, set up deals and brand safety, pull and interpret reports, run measurement and attribution, QA accounts, and troubleshoot delivery. DSP-agnostic foundations make it extensible to other demand-side platforms.",
+    "shortDescription": "Multi-DSP trading, analytics, and account-ops workflows for AI coding agents",
+    "longDescription": "A library of agent skills, specialist agents, and repeatable workflows that let an assistant plan and build campaigns, choose bid strategies, manage pacing and budgets, set up deals and brand safety, pull and interpret reports, run measurement and attribution, QA accounts, and troubleshoot delivery across DV360, Google Ads, Amazon DSP, StackAdapt, and The Trade Desk. DSP-agnostic foundations keep it extensible to other demand-side platforms. It reads and recommends; a human approves any spend-affecting change.",
     "developerName": "Stephen Umunna",
     "category": "Marketing",
     "capabilities": [
@@ -35,7 +37,7 @@
     ],
     "defaultPrompt": [
       "Help me structure and launch a DV360 campaign.",
-      "Analyze my DV360 pacing and recommend optimizations."
+      "Analyze my campaign pacing and recommend optimizations."
     ],
     "websiteURL": "https://github.com/scumunna/programmatic-skills"
   }
