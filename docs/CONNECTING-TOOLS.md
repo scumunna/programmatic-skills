@@ -46,7 +46,9 @@ Anthropic does not ship ad-platform connectors itself. The platforms (Google, Am
 their own, listed in the public MCP registry.
 
 For a concrete, read-only walkthrough that connects the official Google Ads server and pulls a
-real report from your account, see [DEMO-GOOGLE-ADS.md](DEMO-GOOGLE-ADS.md).
+real report from your account, see [DEMO-GOOGLE-ADS.md](DEMO-GOOGLE-ADS.md). For DV360, which has
+no official MCP server yet, see [CONNECT-DV360.md](CONNECT-DV360.md): exporting a report with no
+setup, the bundled report puller, and the state of DV360 MCP servers.
 
 ## Credentials and security
 
