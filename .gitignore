@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local credentials (never commit DSP API keys or service accounts)
+.env
+.env.*
+*.key
+*.pem
+service-account*.json
+client_secret*.json
+credentials.json
+token.json
+
+# Agent runtime scratch
+.superpowers/
+.in_use/
