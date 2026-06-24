@@ -53,7 +53,7 @@ normal language, and it picks the right skill on its own.
 
 A fair question: do the platforms already have this? Yes. Every major DSP now ships its own AI
 agent. The Trade Desk has [Koa Agents](https://digiday.com/media-buying/inside-the-trade-desks-claude-powered-campaign-agent/),
-Google has [Ads Advisor and Gemini in DV360](https://www.adweek.com/programmatic/google-folds-gemini-deeper-into-dv360-to-automate-media-planning-and-buying/),
+Google has [Ask Advisor, its Gemini agent that now spans DV360 and Google Ads](https://ppc.land/googles-ask-advisor-unifies-ads-analytics-and-commerce-in-one-ai-agent/),
 Amazon has [Ads Agent](https://advertising.amazon.com/solutions/products/ads-agent), and StackAdapt
 has [Ivy](https://www.morningstar.com/news/business-wire/20260421122109/stackadapt-brings-campaign-intelligence-into-claude-and-other-ai-workflows-with-launch-of-mcp-server),
 which even has a feature called "Skills" and a connector that plugs into Claude.
