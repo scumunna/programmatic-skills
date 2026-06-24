@@ -22,7 +22,7 @@ KPI math live in the `programmatic-foundations` skill.
 
 A growing library of agent skills organized by platform, plus shared foundations and
 reporting, and specialist agents that chain the skills into a full workflow. DV360 and
-Google Ads, Amazon DSP, and StackAdapt are covered today, with more platforms being added.
+Google Ads, Amazon DSP, StackAdapt, and The Trade Desk are covered today.
 
 ### Shared and cross-platform
 
@@ -93,6 +93,24 @@ Google Ads, Amazon DSP, and StackAdapt are covered today, with more platforms be
 | `stackadapt-reporting-and-attribution` | Analytics | Reporting dashboards and exports, the pixel and event tracking, UTMs, and the attribution approach. |
 | `stackadapt-optimization-and-troubleshooting` | Ops | Triage and symptom playbooks for delivery, pacing, performance, creatives, and conversion tracking. |
 | `stackadapt-api-and-automation` | Automation | The StackAdapt GraphQL API (request-only access), reporting, and a safe-to-automate matrix. |
+
+### The Trade Desk
+
+The Trade Desk's operational knowledge base and API reference sit behind a partner login, so
+these skills are written at the public-concept level from TTD's public pages and the open
+Unified ID 2.0 documentation. They state the model and flag where exact menus, fields, and
+numbers must be confirmed in the partner platform, rather than inventing specifics.
+
+| Skill | Job | What it does |
+| --- | --- | --- |
+| `ttd-platform-overview` | Overview | What The Trade Desk is, the independent open-internet DSP, Kokai, Koa AI, channels, and routing. |
+| `ttd-campaign-structure` | Structure | The account and campaign hierarchy and where settings live, at the public concept level. |
+| `ttd-targeting-and-audiences` | Targeting | First and third-party data, the data marketplace, contextual, and seeds, with specifics flagged. |
+| `ttd-bidding-and-optimization` | Bidding | Koa AI valuation, seeds and bid factors, predictive clearing, Performance mode, and forecasting. |
+| `ttd-inventory-and-deals` | Supply | Open market, private marketplace, Programmatic Guaranteed, and the OpenPath supply path. |
+| `ttd-identity-and-uid2` | Identity | Unified ID 2.0 and EUID: tokens, operators, refresh, integration paths, and OpenPass. |
+| `ttd-measurement-and-reporting` | Analytics | Reporting and attribution concepts, with the gated platform specifics flagged. |
+| `ttd-api-and-automation` | Automation | The partner-gated TTD API model and a safe-to-automate posture. |
 
 ## Specialist agents
 
