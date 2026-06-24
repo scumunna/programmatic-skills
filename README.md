@@ -20,13 +20,22 @@ KPI math live in the `programmatic-foundations` skill.
 
 ## What is in the box
 
-A growing library of agent skills across three jobs, plus shared foundations and reporting,
-and specialist agents that chain those skills into a full workflow. DV360 is the first
-platform and more demand-side platforms are being added.
+A growing library of agent skills organized by platform, plus shared foundations and
+reporting, and specialist agents that chain the skills into a full workflow. DV360 and
+Google Ads are covered today, with more demand-side platforms being added.
+
+### Shared and cross-platform
+
+| Skill | What it does |
+| --- | --- |
+| `programmatic-foundations` | Glossary, auction and KPI math, funnel model, and the trader, analyst, and ops mental model every platform skill builds on. |
+| `reporting-by-campaign-goal` | State-of-the-art report recipes per objective: awareness, consideration, conversion, retention, and reach planning. |
+| `path-to-conversion-analysis` | Multi-touch paths: touchpoints to convert, time lag, top paths, and assisted conversions, via CM360, GA4, and Ads Data Hub. |
+
+### Display & Video 360 (DV360)
 
 | Skill | Job | What it does |
 | --- | --- | --- |
-| `programmatic-foundations` | Shared | Glossary, auction and KPI math, funnel model, the trader, analyst, and ops mental model. |
 | `dv360-campaign-architecture` | Trading | Partner to advertiser to campaign to insertion order to line item structure, and when to split. |
 | `dv360-bid-strategy` | Trading | Fixed, automated, and custom bidding. Target CPA, CPM, ROAS. Learning periods and pitfalls. |
 | `dv360-targeting-and-audiences` | Trading | First-party and Google audiences, combination logic, geo, device, contextual, viewability and IVT. |
@@ -37,12 +46,26 @@ platform and more demand-side platforms are being added.
 | `dv360-measurement-and-attribution` | Analytics | Floodlight, Campaign Manager 360, attribution models, Brand Lift, reach and frequency. |
 | `dv360-advanced-analytics-adh` | Analytics | Ads Data Hub, privacy checks, BigQuery Data Transfer, joining first-party data. |
 | `dv360-custom-bidding` | Analytics | Rule-based, script, and Ads Data Hub custom bidding. Scoring, attribution, staged rollout. |
-| `reporting-by-campaign-goal` | Analytics (cross-DSP) | State-of-the-art report recipes per objective: awareness, consideration, conversion, retention, reach planning. |
-| `path-to-conversion-analysis` | Analytics (cross-DSP) | Multi-touch paths: touchpoints to convert, time lag, top paths, assisted conversions, via CM360, GA4, Ads Data Hub. |
 | `dv360-account-setup-and-taxonomy` | Ops | Partner and advertiser setup, naming conventions, roles and permissions, governance. |
 | `dv360-launch-qa` | Ops | Pre-flight QA checklist and sign-off workflow before any campaign goes live. |
 | `dv360-troubleshooting` | Ops | Ordered playbooks for no delivery, pacing, win rate, viewability, creatives, conversions. |
 | `dv360-api-and-sdf-automation` | Ops | DV360 API v4 resources, Structured Data Files v10, and a safe-to-automate matrix. |
+
+### Google Ads
+
+| Skill | Job | What it does |
+| --- | --- | --- |
+| `google-ads-account-structure` | Structure | Account and manager (MCC) hierarchy, campaign and ad group organization, the shared library, and limits. |
+| `google-ads-campaign-types` | Structure | Search, Performance Max, Demand Gen, Display, Video, Shopping, and App, with an objective-to-type guide. |
+| `google-ads-performance-max` | Campaigns | Asset groups, audience signals, listing groups, search themes, brand exclusions, and PMax versus Search. |
+| `google-ads-bidding` | Bidding | Smart Bidding (tCPA, tROAS, maximize conversions or value), manual CPC, portfolio strategies, bid adjustments. |
+| `google-ads-keywords-and-match-types` | Search | Broad, phrase, and exact match, negatives, the search terms report, and keyword research. |
+| `google-ads-audiences-and-targeting` | Targeting | Audience segments, Customer Match, targeting versus observation, optimized targeting, content targeting. |
+| `google-ads-budgets-and-pacing` | Budget | Average daily budgets, the 2x daily and monthly cap behavior, shared budgets, and limited-by-budget. |
+| `google-ads-conversion-tracking-and-attribution` | Measurement | Conversion actions, Enhanced Conversions, Consent Mode, primary vs secondary, and attribution models. |
+| `google-ads-reporting` | Analytics | The report editor, custom columns, segments, the impression-share metrics, scripts, and GAQL. |
+| `google-ads-optimization-and-troubleshooting` | Ops | Optimization score, learning and limited statuses, disapprovals, low impression share, delivery fixes. |
+| `google-ads-api-and-bulk-operations` | Automation | Google Ads API v24, GAQL, Editor, scripts, and a safe-to-automate matrix with a report puller. |
 
 ## Specialist agents
 
