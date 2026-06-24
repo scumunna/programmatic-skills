@@ -132,6 +132,17 @@ A typical flow: `media-planner`, then `account-operations-specialist` to set up,
 `reporting-analyst` and `client-communications-lead` to report, with `qa-scrutinizer`
 reviewing at each gate.
 
+## Loop library
+
+The `loops/` folder is a catalog of repeatable agent loops for daily and weekly trading and
+reporting work: a pacing sweep, an optimization pass, a pre-launch QA gate, budget reallocation,
+creative fatigue, anomaly detection, search-term mining, brand-safety monitoring, client
+reporting, and business-review prep. Each loop is a bounded feedback cycle with an observable
+success gate and a named stopping condition. Every loop monitors and recommends rather than
+spending on its own, and any change is gated on human approval. See
+[loops/README.md](loops/README.md) for the catalog and how to run a loop on demand or on a
+schedule.
+
 ## Install
 
 ### Claude Code (plugin marketplace)
