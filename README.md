@@ -22,7 +22,7 @@ KPI math live in the `programmatic-foundations` skill.
 
 A growing library of agent skills organized by platform, plus shared foundations and
 reporting, and specialist agents that chain the skills into a full workflow. DV360 and
-Google Ads, and Amazon DSP are covered today, with more demand-side platforms being added.
+Google Ads, Amazon DSP, and StackAdapt are covered today, with more platforms being added.
 
 ### Shared and cross-platform
 
@@ -80,6 +80,19 @@ Google Ads, and Amazon DSP are covered today, with more demand-side platforms be
 | `amazon-dsp-measurement-and-reporting` | Analytics | The retail funnel: detail page views, purchases, ROAS, new-to-brand, reach, frequency, and attribution. |
 | `amazon-marketing-cloud` | Analytics | The AMC clean room: SQL on event-level signals, custom attribution, overlap, incrementality, and audiences. |
 | `amazon-dsp-api-and-automation` | Automation | The Amazon Ads API for DSP, reporting and audiences APIs, the AMC API, access gating, and safe-to-automate. |
+
+### StackAdapt
+
+| Skill | Job | What it does |
+| --- | --- | --- |
+| `stackadapt-account-structure` | Structure | Account, campaign, ad group, and ad hierarchy across native, display, video, CTV, audio, and DOOH, and the pixel. |
+| `stackadapt-campaign-setup` | Campaigns | Building a campaign and ad groups: channel, objective, budget, flight, pacing, bid, targeting, and creatives. |
+| `stackadapt-targeting-and-audiences` | Targeting | Retargeting, lookalikes, third-party data, custom segments, and StackAdapt's contextual targeting. |
+| `stackadapt-bidding-and-budgets` | Bidding | Automated and manual bidding, goal types, maximum bids, budget setting, and pacing. |
+| `stackadapt-inventory-and-brand-safety` | Supply | Exchange and PMP supply, CTV inventory, exclusion lists, contextual avoidance, and verification. |
+| `stackadapt-reporting-and-attribution` | Analytics | Reporting dashboards and exports, the pixel and event tracking, UTMs, and the attribution approach. |
+| `stackadapt-optimization-and-troubleshooting` | Ops | Triage and symptom playbooks for delivery, pacing, performance, creatives, and conversion tracking. |
+| `stackadapt-api-and-automation` | Automation | The StackAdapt GraphQL API (request-only access), reporting, and a safe-to-automate matrix. |
 
 ## Specialist agents
 
