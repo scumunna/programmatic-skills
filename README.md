@@ -258,10 +258,17 @@ what makes this a multi-platform operating system rather than five separate play
 
 ### Claude Code (plugin marketplace)
 
+In the Claude Code CLI or the VS Code or JetBrains extension (not the consumer Claude desktop or
+chat app, which do not install plugin marketplaces):
+
 ```
 /plugin marketplace add scumunna/programmatic-skills
-/plugin install programmatic-skills
+/plugin install programmatic-skills@programmatic-skills
 ```
+
+Anyone with the repository name can install it. It is not yet listed in a browseable directory;
+to change that, the marketplace can be submitted to the Claude community plugin marketplace for
+review.
 
 ### Codex
 
