@@ -51,6 +51,8 @@ Each loop documents:
 | [weekly-client-report](weekly-client-report.md) | Weekly or per reporting cadence | The client, after independent review |
 | [audience-performance-review](audience-performance-review.md) | Weekly, on audience and segment data | The trader, for approval |
 | [business-review-prep](business-review-prep.md) | Before a monthly or quarterly review | The client team, after review |
+| [frequency-saturation-watch](frequency-saturation-watch.md) | On reach campaigns and long CTV flights | The trader, for a cap or fresh reach |
+| [video-completion-watch](video-completion-watch.md) | In flight on video and CTV | The trader, or brand safety for placements |
 
 ## Format credit
 

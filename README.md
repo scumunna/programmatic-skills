@@ -119,6 +119,18 @@ The Trade Desk are covered today.
 | `reach-and-frequency-planning` | Deduplicated reach across platforms, effective frequency, the reach curve, and the identity limits. |
 | `incrementality-and-experimentation` | Lift testing done right: conversion lift, geo lift, holdouts, power and sample size, reading a result. |
 | `client-deliverable-templates` | Fill-in media plan, QBR deck, proposal, plain-English glossary, and bad-news framing for clients. |
+| `value-based-bidding` | Feeding accurate conversion values (revenue, margin, LTV, new-customer value) so automated bidding optimizes to profit. |
+| `bid-landscape-and-win-rate` | Reading the win-rate-by-bid curve to find the efficient bid, marginal CPA versus volume, first-price effects. |
+| `marketing-mix-modeling` | What MMM is and when to use it, data needs, Meridian and Robyn, reading contribution and response curves. |
+| `data-quality-and-reconciliation` | Why conversion numbers differ across tools, acceptable bands, pre-ship checks, and a real anomaly method. |
+| `discrepancy-and-reconciliation` | Ad server versus DSP impression discrepancies, tolerance bands, make-goods, and a month-end close. |
+| `tag-and-pixel-governance` | Floodlight and pixel setup and validation, Consent Mode, deduplication, and a pixel inventory and retirement policy. |
+| `change-management-and-incident-response` | Maker-checker approvals, a bulk-edit pre-flight, and an incident runbook with severity tiers. |
+| `partner-and-advertiser-onboarding` | A gated sequence from signed insertion order to first-campaign-ready, with billing and measurement checks. |
+| `brand-safety-and-suitability` | Pre-bid versus post-bid, MFA and invalid traffic, suitability tiers, regulated categories, supply-path transparency. |
+| `privacy-and-consent` | GDPR, CCPA and CPRA, Consent Mode, TCF, identity consent, and the cookieless and Privacy Sandbox state. |
+| `trader-onboarding` | A week 1, 2, and 4 ramp through the library for a new trader, ending in a graded build. |
+| `approval-and-escalation-governance` | Who approves what, escalation paths, service levels, and a trader capability model. |
 
 ### Display & Video 360 (DV360)
 
@@ -156,6 +168,7 @@ The Trade Desk are covered today.
 | `google-ads-reporting` | Analytics | The report editor, custom columns, segments, the impression-share metrics, scripts, and GAQL. |
 | `google-ads-optimization-and-troubleshooting` | Ops | Optimization score, learning and limited statuses, disapprovals, low impression share, delivery fixes. |
 | `google-ads-api-and-bulk-operations` | Automation | Google Ads API v24, GAQL, Editor, scripts, and a safe-to-automate matrix with a report puller. |
+| `google-ads-shopping-and-feed` | Retail | Merchant Center, product feed quality and attributes, disapprovals, and Shopping versus Performance Max. |
 
 ### Amazon DSP
 
