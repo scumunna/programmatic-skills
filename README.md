@@ -49,6 +49,36 @@ normal language, and it picks the right skill on its own.
 - **One way of working across five platforms.** The same agents and routines run on any of the platforms; only the platform-specific knowledge changes underneath.
 - **It was reviewed by a panel of trader and ops experts** and their feedback was built in. See [docs/CRITIQUE-AND-ROADMAP.md](docs/CRITIQUE-AND-ROADMAP.md).
 
+## How this relates to the platforms' own AI agents
+
+A fair question: do the platforms already have this? Yes. Every major DSP now ships its own AI
+agent. The Trade Desk has [Koa Agents](https://digiday.com/media-buying/inside-the-trade-desks-claude-powered-campaign-agent/),
+Google has [Ads Advisor and Gemini in DV360](https://www.adweek.com/programmatic/google-folds-gemini-deeper-into-dv360-to-automate-media-planning-and-buying/),
+Amazon has [Ads Agent](https://advertising.amazon.com/solutions/products/ads-agent), and StackAdapt
+has [Ivy](https://www.morningstar.com/news/business-wire/20260421122109/stackadapt-brings-campaign-intelligence-into-claude-and-other-ai-workflows-with-launch-of-mcp-server),
+which even has a feature called "Skills" and a connector that plugs into Claude.
+
+They are good. On their own platform they do things this package does not: they have live access
+to your account, they build and optimize campaigns in product, they are deeper, and they are free
+in the interface. This package does not try to beat them there. It does the one thing none of them
+does, and structurally none of them will:
+
+| | A platform's native agent | This package |
+| --- | --- | --- |
+| Scope | One platform, locked in | All five in one assistant, with shared foundations |
+| Whose side it is on | The seller's. It will not move budget off its own platform | The buyer's. It can recommend shifting spend between platforms or away from one |
+| Can it act | Yes, it builds and optimizes live in product | It advises; a person executes |
+| Depth on its platform | Deepest, real time, always current | A researched public snapshot |
+| Openness | Closed | Open text you can read, audit, and fork |
+| Where it runs | The platform's walled garden, on its model | Your own assistant, any model, including a local one |
+
+The point is "and," not "versus." A native agent is the best tool for acting inside its own
+platform. This package is the vendor-neutral layer above all of them: one consistent way to plan
+and reason across five DSPs, on the buyer's side, in your own assistant. It can even orchestrate
+the platforms' own connectors (Google Ads, Amazon Ads, and StackAdapt each expose one) rather than
+replace them. No single platform will build a neutral agent that helps you run a competitor's DSP
+or move money off its own inventory. That gap is what this fills.
+
 ## See it in action
 
 A few real examples of the difference it makes.
