@@ -21,11 +21,12 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKILLS_DIR = os.path.join(ROOT, "skills")
+AGENTS_DIR = os.path.join(ROOT, "agents")
 
 KEBAB = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 KEY_LINE = re.compile(r"^([A-Za-z0-9_-]+):\s?(.*)$")
 REFERENCE_LINK = re.compile(r"(references/[A-Za-z0-9_./-]+\.md)")
-EM_DASH = "—"  # em dash codepoint; written escaped so this file holds no literal em dash
+EM_DASH = chr(0x2014)  # em dash, built by codepoint so this file holds no literal em dash
 DESC_MIN = 40
 DESC_MAX = 700
 
@@ -135,6 +136,43 @@ def validate_skill(skill_dir: str):
     return errors
 
 
+def validate_agent(agent_path: str, skill_names):
+    """Return a list of error strings for one agent definition file."""
+    name = os.path.basename(agent_path)
+    if name.endswith(".md"):
+        name = name[:-3]
+    errors: list[str] = []
+
+    with open(agent_path, "r", encoding="utf-8") as handle:
+        text = handle.read()
+
+    data, reason = parse_frontmatter(text)
+    if data is None:
+        return [f"agent {name}: frontmatter error ({reason})"]
+
+    fm_name = data.get("name", "")
+    if not fm_name:
+        errors.append(f"agent {name}: frontmatter is missing 'name'")
+    else:
+        if fm_name != name:
+            errors.append(f"agent {name}: frontmatter name '{fm_name}' does not match filename")
+        if not KEBAB.match(fm_name):
+            errors.append(f"agent {name}: name '{fm_name}' is not kebab-case")
+
+    if not data.get("description"):
+        errors.append(f"agent {name}: frontmatter is missing 'description'")
+
+    for number, line in find_em_dashes(agent_path):
+        errors.append(f"agent {name}: em dash at line {number} -> {line.strip()}")
+
+    for raw_line in data.get("skills", "").splitlines():
+        skill = raw_line.strip().lstrip("-").strip()
+        if skill and skill not in skill_names:
+            errors.append(f"agent {name}: references unknown skill '{skill}'")
+
+    return errors
+
+
 def main() -> int:
     if not os.path.isdir(SKILLS_DIR):
         print(f"No skills directory found at {SKILLS_DIR}")
@@ -157,15 +195,35 @@ def main() -> int:
             all_errors.extend(errors)
         else:
             passed += 1
-
     print(f"Validated {len(skill_dirs)} skills: {passed} passed, {len(skill_dirs) - passed} with issues.")
+
+    skill_names = {os.path.basename(d) for d in skill_dirs}
+    agent_files = (
+        sorted(
+            os.path.join(AGENTS_DIR, entry)
+            for entry in os.listdir(AGENTS_DIR)
+            if entry.endswith(".md")
+        )
+        if os.path.isdir(AGENTS_DIR)
+        else []
+    )
+    if agent_files:
+        agent_passed = 0
+        for agent_file in agent_files:
+            errors = validate_agent(agent_file, skill_names)
+            if errors:
+                all_errors.extend(errors)
+            else:
+                agent_passed += 1
+        print(f"Validated {len(agent_files)} agents: {agent_passed} passed, {len(agent_files) - agent_passed} with issues.")
+
     if all_errors:
         print("\nIssues found:")
         for error in all_errors:
             print(f"  - {error}")
         return 1
 
-    print("All skills valid.")
+    print("All skills and agents valid.")
     return 0
 
 

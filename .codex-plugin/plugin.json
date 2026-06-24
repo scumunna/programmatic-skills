@@ -21,6 +21,7 @@
     "skills"
   ],
   "skills": "./skills/",
+  "agents": "./agents/",
   "interface": {
     "displayName": "Programmatic Trader Skills",
     "shortDescription": "DV360 trading, analytics, and account-ops workflows for coding agents",
