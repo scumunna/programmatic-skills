@@ -20,8 +20,9 @@ KPI math live in the `programmatic-foundations` skill.
 
 ## What is in the box
 
-A growing library of agent skills across three jobs, plus shared foundations and reporting.
-DV360 is the first platform and more demand-side platforms are being added.
+A growing library of agent skills across three jobs, plus shared foundations and reporting,
+and specialist agents that chain those skills into a full workflow. DV360 is the first
+platform and more demand-side platforms are being added.
 
 | Skill | Job | What it does |
 | --- | --- | --- |
@@ -42,6 +43,26 @@ DV360 is the first platform and more demand-side platforms are being added.
 | `dv360-launch-qa` | Ops | Pre-flight QA checklist and sign-off workflow before any campaign goes live. |
 | `dv360-troubleshooting` | Ops | Ordered playbooks for no delivery, pacing, win rate, viewability, creatives, conversions. |
 | `dv360-api-and-sdf-automation` | Ops | DV360 API v4 resources, Structured Data Files v10, and a safe-to-automate matrix. |
+
+## Specialist agents
+
+The package also ships specialist agents that use the skills above to run a full workflow.
+Installed with the plugin they are auto-discovered, and you can call one by name.
+
+| Agent | Role |
+| --- | --- |
+| `media-planner` | Turns a brief into a media plan: objective, KPI, audience, inventory, budget, and measurement. |
+| `programmatic-trader` | Builds the campaign from the plan: structure, bidding, targeting, deals, frequency, pacing. |
+| `optimization-specialist` | Optimizes and troubleshoots in flight, one lever at a time, with expected impact. |
+| `account-operations-specialist` | Sets up the account, enforces taxonomy, runs launch QA, and handles safe bulk operations. |
+| `reporting-analyst` | Builds the right report per goal and runs measurement, attribution, and path to conversion. |
+| `client-communications-lead` | Translates results into clear, honest, client-ready communication. |
+| `qa-scrutinizer` | Independent reviewer that scores and gates builds, reports, and client comms before they ship. |
+
+A typical flow: `media-planner`, then `account-operations-specialist` to set up, then
+`programmatic-trader` to build, then `optimization-specialist` in flight, then
+`reporting-analyst` and `client-communications-lead` to report, with `qa-scrutinizer`
+reviewing at each gate.
 
 ## Install
 
@@ -65,13 +86,14 @@ directories so a `git pull` keeps them current.
 ```
 git clone https://github.com/scumunna/programmatic-skills.git
 cd programmatic-skills
-./install.sh            # symlink into ~/.claude/skills, ~/.codex/skills, ~/.agents/skills
+./install.sh            # symlink skills and agents into the runtime directories
 ./install.sh --copy     # copy instead of symlink
 ```
 
 `~/.agents/skills` is the shared path read by Codex, Copilot CLI, and Gemini CLI, so a single
-install covers all of them. To install one skill by hand, copy its folder from `skills/`
-into your runtime skills directory.
+install covers all of them. Agents are symlinked into `~/.claude/agents` and `~/.codex/agents`.
+The plugin marketplace install is the simplest way to get both skills and agents in every
+runtime.
 
 ## Using the skills
 
@@ -100,8 +122,9 @@ example `ttd-*` for The Trade Desk or `amzn-*` for Amazon DSP, without restructu
 python3 scripts/validate_skills.py
 ```
 
-This checks frontmatter, naming, description length, the no-em-dash writing standard, and
-that reference links resolve.
+This checks every skill and agent: frontmatter, naming, description length, the no-em-dash
+writing standard, that reference links resolve, and that each agent only references skills
+that exist.
 
 ## Disclaimer
 
