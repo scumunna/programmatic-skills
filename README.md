@@ -189,12 +189,17 @@ for example "structure a DV360 prospecting campaign for three markets" or "my li
 underpacing, what do I check". Each skill carries the decision rules, checklists, and
 templates the agent needs to respond like a practitioner.
 
-## Optional scripts
+## Tools
 
-Some skills ship runnable Python helpers (a report puller, a Structured Data File template, a
-pacing calculator). They are optional. Each reads credentials from environment variables or a
-path you supply, and prints usage when run with no arguments. The playbooks are useful on
-their own even if you never run a script.
+The `tools/` folder has two kinds of helpers. A set of no-setup calculators (compare buys on a
+common eCPM, check whether a frequency cap can deliver the impressions you need, plan a budget
+across a flight) that run on any machine with Python 3, and read-only report pullers bundled
+with the platform skills that read from your own account. See [tools/README.md](tools/README.md).
+
+Everything here reads and recommends; nothing changes a live campaign on its own. To give an
+agent live platform access safely, including how to connect the existing official MCP servers
+and why any spend-affecting change stays behind a human, see
+[docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md).
 
 ## Multi-DSP roadmap
 
