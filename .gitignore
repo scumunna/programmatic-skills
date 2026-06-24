@@ -29,3 +29,6 @@ google-ads*.yaml
 # Agent runtime scratch
 .superpowers/
 .in_use/
+
+# Personal LinkedIn marketing assets (kept local, not for the public repo)
+images/linkedin/
