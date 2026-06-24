@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="860" height="470" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="859" height="469" fill="none" stroke="#e5e7eb"/>
+  <text x="30" y="48" font-size="26" font-weight="700" fill="#111827">How it works</text>
+  <text x="30" y="76" font-size="15" fill="#6b7280">You ask in plain language. The assistant picks the right knowledge on its own.</text>
+
+  <!-- Skills card -->
+  <rect x="30" y="104" width="248" height="226" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+  <rect x="30" y="104" width="248" height="8" rx="4" fill="#2563eb"/>
+  <text x="54" y="150" font-size="19" font-weight="700" fill="#111827">Skills</text>
+  <text x="54" y="174" font-size="13" fill="#6b7280">the knowledge</text>
+  <text x="54" y="208" font-size="13.5" fill="#374151">Dozens of written playbooks,</text>
+  <text x="54" y="228" font-size="13.5" fill="#374151">one per job, grouped by</text>
+  <text x="54" y="248" font-size="13.5" fill="#374151">platform.</text>
+  <text x="54" y="284" font-size="12.5" fill="#9ca3af">"How do I structure this</text>
+  <text x="54" y="302" font-size="12.5" fill="#9ca3af">campaign? Pick a bid strategy?"</text>
+
+  <!-- Agents card -->
+  <rect x="306" y="104" width="248" height="226" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+  <rect x="306" y="104" width="248" height="8" rx="4" fill="#16a34a"/>
+  <text x="330" y="150" font-size="19" font-weight="700" fill="#111827">Agents</text>
+  <text x="330" y="174" font-size="13" fill="#6b7280">the roles</text>
+  <text x="330" y="208" font-size="13.5" fill="#374151">Seven specialists that use</text>
+  <text x="330" y="228" font-size="13.5" fill="#374151">the skills: planner, trader,</text>
+  <text x="330" y="248" font-size="13.5" fill="#374151">optimizer, analyst, client</text>
+  <text x="330" y="268" font-size="13.5" fill="#374151">lead, and a scrutinizer.</text>
+  <text x="330" y="302" font-size="12.5" fill="#9ca3af">Each hands off to the next.</text>
+
+  <!-- Loops card -->
+  <rect x="582" y="104" width="248" height="226" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+  <rect x="582" y="104" width="248" height="8" rx="4" fill="#9333ea"/>
+  <text x="606" y="150" font-size="19" font-weight="700" fill="#111827">Loops</text>
+  <text x="606" y="174" font-size="13" fill="#6b7280">the routines</text>
+  <text x="606" y="208" font-size="13.5" fill="#374151">Repeatable checklists you</text>
+  <text x="606" y="228" font-size="13.5" fill="#374151">run on demand or on a</text>
+  <text x="606" y="248" font-size="13.5" fill="#374151">schedule.</text>
+  <text x="606" y="284" font-size="12.5" fill="#9ca3af">"Daily pacing check,</text>
+  <text x="606" y="302" font-size="12.5" fill="#9ca3af">weekly optimization pass."</text>
+
+  <!-- arrows -->
+  <path d="M283 217 l18 0 m-6 -5 l6 5 l-6 5" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M559 217 l18 0 m-6 -5 l6 5 l-6 5" fill="none" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- safety footer -->
+  <rect x="30" y="360" width="800" height="74" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="54" y="392" font-size="15" font-weight="700" fill="#1d4ed8">Safe by design</text>
+  <text x="54" y="416" font-size="13.5" fill="#374151">The assistant reads, analyzes, and recommends. It never spends your money or changes a live campaign on its own. You approve every change.</text>
+</svg>

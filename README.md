@@ -1,28 +1,112 @@
-# Programmatic Trader Skills
+# Programmatic Skills
 
-A library of agent skills that let an AI assistant work as a programmatic **trader**,
-**analyst**, and **account-operations** specialist. The first complete platform is Google
-**Display & Video 360 (DV360)**. The foundations are DSP-agnostic, so the same library
-extends to other demand-side platforms over time.
+Run advertising campaigns like a seasoned programmatic trader by talking to your AI assistant
+in plain language. This is an open library that teaches an AI assistant (in Claude Code, Codex,
+and similar tools) the real decision rules, checklists, and steps an experienced trader,
+analyst, and ad-operations specialist uses, across five major advertising platforms.
 
-These skills encode researched, source-cited best practices: how to structure a campaign,
-choose a bid strategy, manage pacing and budgets, set up deals and brand safety, pull and
-read reports, run measurement and attribution, QA an account, and troubleshoot delivery.
-They work in **Claude Code** and **Codex** from a single skills tree, and in Copilot CLI and
-Gemini CLI through the shared skills path.
+## The problem it solves
+
+Programmatic advertising means buying digital ads automatically through live auctions, across
+platforms like Google's Display & Video 360, Google Ads, Amazon DSP, StackAdapt, and The Trade
+Desk. Each platform has its own rules, its own jargon, and its own ways to go wrong, and the
+knowledge to run them well lives in the heads of a few experienced people.
+
+If you ask a general AI assistant a real trading question ("why is my campaign not spending?",
+"which bid strategy should I use?", "build me a plan for a fifty thousand dollar video
+campaign"), it tends to give generic or slightly wrong answers, because it does not know the
+specifics of each platform.
+
+This library fixes that. It gives the assistant the expert's playbook, so its answers match
+what a senior trader would actually do.
+
+## How it works, in plain language
+
+Think of it as three layers.
+
+1. **Skills are the knowledge.** Each skill is a short written playbook for one job: how to
+   structure a campaign, how to choose a bid strategy, how to read a report, how to find why a
+   campaign is not delivering. When your question matches a skill, the assistant reads that
+   playbook and follows it. There are dozens of them, grouped by platform.
+2. **Agents are the roles.** Seven ready-made specialists that use the skills: a media planner,
+   a trader who builds the campaign, an optimizer who improves it, an account-operations
+   specialist, a reporting analyst, a client-communications lead who writes the client update,
+   and a scrutinizer who double-checks the work before it goes out.
+3. **Loops are the routines.** Repeatable checklists you can run on demand or on a schedule,
+   like a daily pacing check or a weekly optimization pass.
+
+There are also simple calculators that need no setup, and a guide for connecting the assistant
+to your live accounts when you want it to read your real data.
+
+You do not configure anything to start. You install it, then ask your assistant questions in
+normal language, and it picks the right skill on its own.
+
+## Why it works
+
+- **It is based on real documentation, not guesses.** Almost every claim links to the platform's own official help page, and the few platforms with private documentation (notably The Trade Desk) are clearly marked as such.
+- **It is safe by design.** The assistant reads, analyzes, and recommends. It never spends your money or changes a live campaign on its own. A person always approves any change. This matches what the ad platforms themselves allow today.
+- **It checks its own work.** A built-in scrutinizer reviews reports and recommendations for math errors, overclaiming, and unsupported statements before they reach a client.
+- **One way of working across five platforms.** The same agents and routines run on any of the platforms; only the platform-specific knowledge changes underneath.
+- **It was reviewed by a panel of trader and ops experts** and their feedback was built in. See [docs/CRITIQUE-AND-ROADMAP.md](docs/CRITIQUE-AND-ROADMAP.md).
+
+## See it in action
+
+A few real examples of the difference it makes.
+
+**"My DV360 campaign is not spending its budget. What is wrong?"** On its own, an assistant
+guesses. With this library, it runs the troubleshooting playbook in the right order (status,
+then budget and flight, then bid and win rate, then how narrow the targeting is, then
+inventory, then the creative) and tells you the single binding cause and the fix, the way a
+senior trader debugs it.
+
+**"Build me a media plan for a fifty thousand dollar connected-TV awareness campaign."** The
+planner agent produces a structured plan with the right success metric (reach and frequency,
+not clicks), the right platform for CTV, a budget split, a flight, and a measurement plan, then
+hands it to the scrutinizer to check before it reaches the client.
+
+**"Compare these two buys for me."** The eCPM calculator converts a cost-per-click buy and a
+cost-per-action buy to the same effective cost per thousand impressions, so you can compare
+lines that were priced differently.
+
+The panels below show how the pieces fit together, the assistant applying a skill, and a
+calculator you can run yourself.
+
+### The three layers
+
+![How it works: skills are the knowledge, agents are the roles, loops are the routines, and the assistant reads and recommends while you approve every change.](images/how-it-works.svg)
+
+Skills hold the knowledge, agents are the specialist roles that use them, and loops are the
+repeatable routines. Underneath it all, the assistant only recommends. A person approves any
+change.
+
+### The assistant applying a skill
+
+![Example: asked why a DV360 line item is not spending, the assistant walks the troubleshooting triage in order and names the binding cause and the fix.](images/example-interaction.svg)
+
+Ask why a campaign is not spending, and instead of a generic answer the assistant walks the
+same triage a senior trader uses (status, budget, bid, targeting, inventory, creative), then
+names the one binding cause, here a bid below the floor, and the fix. It stops at a
+recommendation and does not touch the account.
+
+### A calculator you can run yourself
+
+![A terminal running the budget and flight planner, showing the even daily budget, projected impressions, clicks, conversions, CPA, and pacing checkpoints.](images/tools-in-action.svg)
+
+The simple calculators need no accounts and no setup. Give the budget and flight planner your
+budget, your flight, and a target CPM, and it returns the daily budget, the impressions to
+expect, and pacing checkpoints to catch drift early.
 
 ## Who this is for
 
-Programmatic traders, ad ops specialists, and analysts who want an agent that already knows
-the platform, and anyone learning DV360 who wants the decision rules an experienced trader
-applies. The skills assume working knowledge of programmatic media. Shared definitions and
-KPI math live in the `programmatic-foundations` skill.
+Programmatic traders, ad-operations specialists, and analysts who want an assistant that
+already knows the platforms, agencies that want consistent quality, and anyone learning
+programmatic who wants the decision rules an experienced trader applies.
 
 ## What is in the box
 
-A growing library of agent skills organized by platform, plus shared foundations and
-reporting, and specialist agents that chain the skills into a full workflow. DV360 and
-Google Ads, Amazon DSP, StackAdapt, and The Trade Desk are covered today.
+A library of agent skills organized by platform, plus shared foundations and reporting, the
+seven specialist agents, and the loop library. DV360, Google Ads, Amazon DSP, StackAdapt, and
+The Trade Desk are covered today.
 
 ### Shared and cross-platform
 

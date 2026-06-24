@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="860" height="560" fill="#ffffff"/>
+  <text x="30" y="44" font-size="22" font-weight="700" fill="#111827">An example: the assistant applies the troubleshooting skill</text>
+
+  <!-- user bubble -->
+  <rect x="330" y="70" width="500" height="62" rx="14" fill="#2563eb"/>
+  <text x="354" y="100" font-size="14.5" fill="#ffffff">My DV360 line item is not spending its budget.</text>
+  <text x="354" y="120" font-size="14.5" fill="#ffffff">What is wrong?</text>
+  <text x="806" y="150" font-size="12" fill="#9ca3af" text-anchor="end">you</text>
+
+  <!-- assistant bubble -->
+  <rect x="30" y="168" width="720" height="372" rx="14" fill="#f3f4f6" stroke="#e5e7eb"/>
+  <text x="54" y="150" font-size="12" fill="#9ca3af">assistant</text>
+  <text x="54" y="200" font-size="14.5" fill="#374151">I will walk the delivery triage in order, top down. A problem high in the list</text>
+  <text x="54" y="220" font-size="14.5" fill="#374151">hides everything below it.</text>
+
+  <g font-size="14" fill="#111827">
+    <text x="54" y="252">1.  Status: is the line item, its insertion order, and the campaign active?</text>
+    <text x="54" y="276">2.  Budget and flight: are we inside the dates with budget left?</text>
+    <text x="54" y="300">3.  Bid and win rate: is the bid above the floor for the targeted inventory?</text>
+    <text x="54" y="324">4.  Targeting size: is the audience large enough after every layer?</text>
+    <text x="54" y="348">5.  Inventory or deal: is there matching supply, and is the deal live?</text>
+    <text x="54" y="372">6.  Creative: is an approved creative assigned and the right size?</text>
+  </g>
+
+  <rect x="54" y="392" width="672" height="64" rx="10" fill="#fef9c3" stroke="#fde047"/>
+  <text x="70" y="416" font-size="14" font-weight="700" fill="#854d0e">Most likely cause</text>
+  <text x="70" y="438" font-size="13.5" fill="#713f12">The bid is below the floor, so you lose every auction. The impression-loss report</text>
+  <text x="70" y="454" font-size="13.5" fill="#713f12">shows this as "below minimum bid."</text>
+
+  <text x="54" y="486" font-size="14" fill="#374151"><tspan font-weight="700" fill="#15803d">Fix:</tspan> raise the bid to clear the floor, or widen targeting. Change one lever, then</text>
+  <text x="54" y="506" font-size="14" fill="#374151">re-check. I will not change anything in the account without your go-ahead.</text>
+</svg>

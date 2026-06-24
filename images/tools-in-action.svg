@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="860" height="440" fill="#ffffff"/>
+  <text x="30" y="44" font-size="22" font-weight="700" fill="#111827">A calculator running (no setup, no credentials)</text>
+  <text x="30" y="70" font-size="14" fill="#6b7280">Type your budget and flight, get the plan a trader would sketch by hand.</text>
+
+  <!-- terminal window -->
+  <rect x="30" y="92" width="800" height="320" rx="10" fill="#0b1020"/>
+  <rect x="30" y="92" width="800" height="34" rx="10" fill="#1f2937"/>
+  <rect x="30" y="110" width="800" height="16" fill="#1f2937"/>
+  <circle cx="52" cy="109" r="6" fill="#ef4444"/>
+  <circle cx="72" cy="109" r="6" fill="#f59e0b"/>
+  <circle cx="92" cy="109" r="6" fill="#22c55e"/>
+  <text x="430" y="114" font-size="12.5" fill="#9ca3af" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">tools / budget_flight_planner.py</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13.5">
+    <text x="50" y="156" fill="#93c5fd">$ python3 tools/budget_flight_planner.py --budget 30000 \</text>
+    <text x="50" y="176" fill="#93c5fd">    --start 2026-07-01 --end 2026-07-31 --cpm 6 --ctr 0.002 --cvr 0.05</text>
+    <text x="50" y="206" fill="#e5e7eb">flight:            2026-07-01 to 2026-07-31 (31 days)</text>
+    <text x="50" y="226" fill="#e5e7eb">budget:            30,000.00</text>
+    <text x="50" y="246" fill="#34d399">even daily budget: 967.74</text>
+    <text x="50" y="266" fill="#e5e7eb">projected impressions: 5,000,000 at a 6 CPM</text>
+    <text x="50" y="286" fill="#e5e7eb">projected clicks:      10,000 at a 0.002 CTR</text>
+    <text x="50" y="306" fill="#e5e7eb">projected conversions: 500.0 at a 0.05 CVR</text>
+    <text x="50" y="326" fill="#34d399">projected CPA:         60.00</text>
+    <text x="50" y="350" fill="#9ca3af">pacing checkpoints (expected cumulative spend):</text>
+    <text x="50" y="370" fill="#e5e7eb">  by day   8 (25 percent of flight): 7,741.94</text>
+    <text x="50" y="390" fill="#e5e7eb">  by day  16 (50 percent of flight): 15,483.87</text>
+  </g>
+</svg>
