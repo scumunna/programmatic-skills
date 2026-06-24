@@ -25,7 +25,7 @@ SKILLS_DIR = os.path.join(ROOT, "skills")
 KEBAB = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 KEY_LINE = re.compile(r"^([A-Za-z0-9_-]+):\s?(.*)$")
 REFERENCE_LINK = re.compile(r"(references/[A-Za-z0-9_./-]+\.md)")
-EM_DASH = "—"  # em dash, escaped so this file contains no literal em dash
+EM_DASH = "—"  # em dash codepoint; written escaped so this file holds no literal em dash
 DESC_MIN = 40
 DESC_MAX = 700
 
